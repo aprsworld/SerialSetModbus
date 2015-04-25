@@ -132,6 +132,7 @@ public class SerialSetModbus extends Thread {
 		speed.add(new String("9600"));
 		speed.add(new String("19200"));
 		speed.add(new String("57600"));
+		speed.add(new String("115200"));
 		fSerialNumber.add(new JLabel("Serial Speed:"));
 		cbSpeed = new JComboBox(speed);
 		fSerialNumber.add(cbSpeed);
