@@ -151,6 +151,7 @@ public class SerialSetModbus extends Thread {
 		address.add(new String("35 (SPOT Controller)"));
 		address.add(new String("36 (PDist LP Modbus)"));
 		address.add(new String("37 (DC Switch Controller)"));
+		address.add(new String("38 (PiCameraWeatherX)"));
 		
 		fSerialNumber.add(new JLabel("Modbus Address:"));
 		cbAddress = new JComboBox(address);
