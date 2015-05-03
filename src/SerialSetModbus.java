@@ -153,6 +153,8 @@ public class SerialSetModbus extends Thread {
 		address.add(new String("36 (PDist LP Modbus)"));
 		address.add(new String("37 (DC Switch Controller)"));
 		address.add(new String("38 (PiCameraWeatherX)"));
+		/* not sure what is address 39. Or if 38 is a duplicate */
+		address.add(new String("40 (pdist48)"));
 		
 		fSerialNumber.add(new JLabel("Modbus Address:"));
 		cbAddress = new JComboBox(address);
